@@ -127,3 +127,23 @@ header i{
     border: 1px solid black;
     border-radius: 10%;
 }
+
+/* Footer*/
+.get-started{
+    width: 100%;
+    height: 300px;
+    background-color: mediumslateblue;
+    border: 1px solid black;
+    border-radius: 10%;
+}
+
+.black{
+    background-color: darkslategrey;
+}
+
+.end-title{
+    width: 100%;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 10%;
+}

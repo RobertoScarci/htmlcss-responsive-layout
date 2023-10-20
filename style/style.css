@@ -7,7 +7,7 @@
 
 .container{
     width: 100%;
-    padding: 1rem 1.5rem;
+    padding: 0 1.5rem;
 }
 
 .flex-j-center{
@@ -25,6 +25,7 @@ header{
     width: 100%;
     background-color: dodgerblue;
     color: white;
+    padding: 1rem 0;
 }
 
 .fifty{
@@ -39,3 +40,23 @@ header{
 header i{
     font-size: 25px;
 }
+
+/* Main */
+.quadrato{
+    width: 100%;
+    height: 350px;
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin: 3rem 0;
+}
+
+.p-and-image{
+    background-color: lightblue;
+    width: 100%;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 10%;
+    margin-top: 2rem;
+}
+

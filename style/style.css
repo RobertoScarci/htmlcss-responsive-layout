@@ -151,7 +151,6 @@ header i{
 .testimonials{
     width: 100%;
     background-color: mediumpurple;
-    border: 1px solid black;
     border-radius: 10%;
     margin-top: 2rem;
 }
@@ -189,7 +188,20 @@ header i{
     font-size: 20px;
 }
 
-.testimonials
+.testimonials h3,
+.testimonials p{
+    color: white;
+    margin: 0 3rem;
+}
+
+.testimonials p{
+    font-size: 20px;
+}
+
+.testimonials h3{
+    font-size: 30px;
+    padding-bottom: 2rem;
+}
 /* Benefits */
 .title{
     width: 100%;

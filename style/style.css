@@ -28,6 +28,10 @@ body{
     align-items: center;
 }
 
+.center{
+    text-align: center;
+}
+
 /* Header */
 header{
     width: 100%;
@@ -70,11 +74,6 @@ header i{
     padding-bottom: 0;
 }
 
-.p-and-image *,
-.quadrato *{
-    text-align: center;
-}
-
 .p-and-image h2,
 .quadrato h2{
     padding-top: 2rem;
@@ -89,7 +88,6 @@ header i{
 
 .p-and-image button{
     margin: 1.5rem 0;
-    margin-left: 4rem;
     width: 15rem;
     height: 3rem;
     font-size: 20px;
@@ -120,10 +118,6 @@ header i{
     width: 100%;
 }
 
-.purple *{
-    text-align: center;
-}
-
 .purple h2, p{
     padding: 2rem 0;
 }
@@ -150,21 +144,52 @@ header i{
 /* Testimonials */
 .introduction{
     width: 100%;
-    height: 250px;
-    border: 1px solid black;
     border-radius: 10%;
     margin-top: 2rem;
 }
 
 .testimonials{
     width: 100%;
-    height: 400px;
     background-color: mediumpurple;
     border: 1px solid black;
     border-radius: 10%;
     margin-top: 2rem;
 }
 
+.image-id{
+    display: inline-block;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color: white;
+    overflow: hidden;
+    margin-top: 2rem;
+}
+
+.image-id img{
+    width: auto;
+    height: 100%;
+    margin-left: -60px;
+}
+
+.introduction *{
+    padding: 1rem 0;
+}
+
+.introduction h2{
+    font-size: 25px;
+}
+
+.introduction h1{
+    font-size: 40px;
+    color: mediumpurple;
+}
+
+.introduction p{
+    font-size: 20px;
+}
+
+.testimonials
 /* Benefits */
 .title{
     width: 100%;

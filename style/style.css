@@ -6,11 +6,7 @@
 }
 
 body{
-    font-family: 'Fredoka', sans-serif;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Open Sans', sans-serif;
     font-family: 'PT Sans', sans-serif;
-    font-family: 'Quicksand', sans-serif;
 }
 
 .container{
@@ -56,7 +52,6 @@ header i{
 /* Main */
 .quadrato{
     width: 100%;
-    height: 350px;
     background-color: lightblue;
     border-radius: 10%;
     margin: 3rem 0;
@@ -65,7 +60,7 @@ header i{
 .p-and-image{
     background-color: lightblue;
     width: 100%;
-    border-radius: 8%;
+    border-radius: 10%;
     margin-top: 2rem;
     position: relative;
 }
@@ -98,6 +93,15 @@ header i{
     border: 0;
 }
 
+.quadrato h1{
+    font-size: 80px;
+    padding-top: 1rem;
+}
+
+.p-and-image i{
+    padding-right: .5rem;
+}
+
 /* Planning */
 .planning{
     width: 100%;
@@ -110,6 +114,7 @@ header i{
     background-color: mediumpurple;
     margin-top: 2rem;
 }
+
 
 .white{
     background-color: white;
@@ -141,6 +146,15 @@ header i{
 
 .white p{
     margin: 0 .5rem;
+}
+
+.planning i{
+    width: 100px;
+    height: 100px;
+    font-size: 30px;
+    background-color: mediumpurple;
+    border-radius: 50%;
+    line-height: 3;
 }
 
 /* Testimonials */
@@ -204,6 +218,10 @@ header i{
 .testimonials h3{
     font-size: 30px;
     padding-bottom: 2rem;
+}
+
+.testimonials i{
+    padding: 0 .5rem;
 }
 /* Benefits */
 .title{
@@ -299,10 +317,41 @@ header i{
 /* Footer*/
 .get-started{
     width: 100%;
-    height: 300px;
-    background-color: mediumslateblue;
-    border: 1px solid black;
     border-radius: 10%;
+}
+
+.get-started *{
+    color: white;
+}
+
+.get-started h3{
+    font-size: 25px;
+    padding-top: 2rem;
+    color: lightgray;
+}
+
+.get-started h2{
+    font-size: 35px;
+}
+
+.get-started h1{
+    font-size: 70px;
+    color: gold;
+}
+
+.get-started p{
+    font-size: 20px;
+    line-height: 2;
+}
+
+.get-started button{
+    width: 22rem;
+    height: 5rem;
+    background-color: white;
+    color: mediumpurple;
+    border: 0;
+    border-radius: 50px 50px 50px 50px;
+    font-size: 30px;
 }
 
 .black{
@@ -311,7 +360,21 @@ header i{
 
 .end-title{
     width: 100%;
-    height: 150px;
-    border: 1px solid white;
     border-radius: 10%;
+    color: white;
+    font-size: 20px;
+}
+
+footer a{
+    color: mediumpurple;
+}
+
+footer i{
+    font-size: 10px;
+    padding: 0 .5rem;
+    vertical-align: middle;
+}
+
+@media screen and(min-width:576px){
+    
 }
